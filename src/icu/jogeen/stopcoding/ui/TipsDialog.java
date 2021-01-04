@@ -49,23 +49,16 @@ public class TipsDialog extends JDialog {
     }
 
     private void onOK() {
-        dispose();
         handle();
     }
 
     private void onCancel() {
-        dispose();
         handle();
     }
 
     private void handle() {
-        DataCenter.reskTimer.cancel();
-        if (DataCenter.RESTING.equals(DataCenter.status) && DataCenter.nextWorkTime.isAfter(LocalDateTime.now())) {
-            TipsDialog tipsDialog = new TipsDialog();
-            tipsDialog.setVisible(true);
-        } else {
-            TimerService.openTimer();
-        }
+        //do nothing!
+        JOptionPane.showMessageDialog(null, "别点了，赶紧去休息吧，时间到了，我会自动关闭的。", "提示",JOptionPane.INFORMATION_MESSAGE);
     }
 
     public void setDesc(String desc) {

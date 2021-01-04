@@ -25,18 +25,18 @@ public class RestTask extends TimerTask {
         TimerService.resetNextWorkTime();
         //初始化休息倒计时
         TimerService.initRestCountDown();
+        TimerService.restCountDown();//倒计时
         if (DataCenter.restCountDownSecond >= 0) { //休息时间内
             String desc = TimerService.getCountDownDesc(DataCenter.restCountDownSecond);
             tipsDialog.setDesc(String.format("活动一下，喝点水！%s", desc));
         } else {//休息时间结束
             DataCenter.reskTimer.cancel();   //关闭定时器
-            tipsDialog.dispose(); //关闭提升窗口
+            tipsDialog.dispose(); //关闭提示窗口
             String notifyStr = TimerService.openTimer();// 开启工作计时器
             //发一个通知
             NotificationGroup notificationGroup = new NotificationGroup("tipsid", NotificationDisplayType.BALLOON, true);
             Notification notification = notificationGroup.createNotification(notifyStr, MessageType.INFO);
             Notifications.Bus.notify(notification);
         }
-        TimerService.restCountDown();//倒计时
     }
 }
