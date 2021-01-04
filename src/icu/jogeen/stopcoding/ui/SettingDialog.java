@@ -27,7 +27,6 @@ public class SettingDialog extends JDialog {
     private JRadioButton openRbtn;
     private JTextField workTimeTF;
     private JTextField restTimeTF;
-    private JLabel statusJL;
     private JLabel descJL;
 
     public SettingDialog() {
@@ -66,7 +65,7 @@ public class SettingDialog extends JDialog {
         openRbtn.addChangeListener(new ChangeListener() {
             @Override
             public void stateChanged(ChangeEvent e) {
-                statusJL.setText(openRbtn.isSelected() ? "已开启" : "已关闭");
+                openRbtn.setText(openRbtn.isSelected() ? "Running" : "Stopped");
             }
         });
 
@@ -75,7 +74,7 @@ public class SettingDialog extends JDialog {
         workTimeTF.setText(DataCenter.settingData.getWorkTime() + "");
         restTimeTF.setText(DataCenter.settingData.getRestTime() + "");
         descJL.setText(DataCenter.getSettingDesc());
-        statusJL.setText(openRbtn.isSelected() ? "已开启" : "已关闭");
+        openRbtn.setText(openRbtn.isSelected() ? "Running" : "Stopped");
 
 
     }

@@ -29,14 +29,14 @@ public class DataCenter {
     public static String getSettingDesc() {
 
         if (CLOSE.equals(DataCenter.status)) {
-            return "当前未开启StopCoding的提示功能";
+            return "Stopcoding is stopping";
         }
         DateTimeFormatter df = DateTimeFormatter.ofPattern("HH:mm:ss");
         if (WORKING.equals(status)) {
-            return "下一次休息时间:" + df.format(nextRestTime);
+            return "Next break:" + df.format(nextRestTime);
         }
         if (RESTING.equals(status)) {
-            return "休息结束时间:" + df.format(nextWorkTime);
+            return "Break end time:" + df.format(nextWorkTime);
         }
         return "";
     }

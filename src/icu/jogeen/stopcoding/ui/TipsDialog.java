@@ -25,7 +25,7 @@ public class TipsDialog extends JDialog {
         getRootPane().setDefaultButton(buttonOK);
         setTitle("StopCoding");
         setLocation(400, 200);//距离屏幕左上角的其实位置
-        setSize(400, 200);//对话框的长宽
+        setSize(500, 200);//对话框的长宽
 
         buttonOK.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -58,7 +58,7 @@ public class TipsDialog extends JDialog {
 
     private void handle() {
         //do nothing!
-        JOptionPane.showMessageDialog(null, "别点了，赶紧去休息吧，时间到了，我会自动关闭的。", "提示",JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Go to have a rest. When the time comes, I'll turn it off automatically.", "tips",JOptionPane.INFORMATION_MESSAGE);
     }
 
     public void setDesc(String desc) {

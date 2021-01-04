@@ -28,7 +28,7 @@ public class RestTask extends TimerTask {
         TimerService.restCountDown();//倒计时
         if (DataCenter.restCountDownSecond >= 0) { //休息时间内
             String desc = TimerService.getCountDownDesc(DataCenter.restCountDownSecond);
-            tipsDialog.setDesc(String.format("活动一下，喝点水！%s", desc));
+            tipsDialog.setDesc(String.format("Take a break,StopCoding! %s", desc));
         } else {//休息时间结束
             DataCenter.reskTimer.cancel();   //关闭定时器
             tipsDialog.dispose(); //关闭提示窗口

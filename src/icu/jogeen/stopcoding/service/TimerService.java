@@ -71,7 +71,7 @@ public class TimerService {
         DataCenter.workTimer.schedule(new WorkTask(), Date.from(DataCenter.nextRestTime.atZone(ZoneId.systemDefault()).toInstant()));
         DataCenter.status = DataCenter.WORKING;
         DataCenter.settingData.setOpen(true);
-        return String.format("开启StopCoding倒计时，%s分钟后，下一次休息时间为:%s", DataCenter.settingData.getWorkTime(), getDateStr(DataCenter.nextRestTime));
+        return String.format("Start StopCoding countdown, after %s minutes, the next rest time is %s", DataCenter.settingData.getWorkTime(), getDateStr(DataCenter.nextRestTime));
     }
 
 
@@ -80,7 +80,7 @@ public class TimerService {
         DataCenter.workTimer.cancel();
         DataCenter.settingData.setOpen(false);
         DataCenter.status = DataCenter.CLOSE;
-        return "关闭StopCoding";
+        return "Stop StopCoding";
     }
 
     public static String getCountDownDesc(int time) {
@@ -88,9 +88,9 @@ public class TimerService {
             int hour = time / (60 * 60);
             int minute = (time % (60 * 60)) / 60;
             int second = time % 60;
-            return "休息倒计时：" + String.format("%s:%s:%s", fillZero(hour), fillZero(minute), fillZero(second));
+            return "Rest countdown：" + String.format("%s:%s:%s", fillZero(hour), fillZero(minute), fillZero(second));
         }
-        return "休息结束";
+        return "The rest is over";
     }
 
 
