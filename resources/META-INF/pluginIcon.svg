@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#9D9D9D;stroke-width:0.5;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#0F62FE;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+</style>
+<polyline class="st0" points="400,400 0,400 0,0 400,0 "/>
+<ellipse class="st0" cx="200" cy="200" rx="120" ry="120"/>
+<path class="st2" d="M30,198.5C30,105.3,106.3,30,200,30s170,75.3,170,168.5V370H30V198.5z M98,200c0-56.3,45.7-102,102-102
+	s102,45.7,102,102s-45.7,102-102,102S98,256.3,98,200z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="169.9019" y1="241.5279" x2="272.0539" y2="174.4179" gradientTransform="matrix(1 0 0 -1 0 402)">
+	<stop  offset="0" style="stop-color:#0F62FE"/>
+	<stop  offset="1" style="stop-color:#4589FF"/>
+</linearGradient>
+<path class="st3" d="M215.5,138.2v55.4l37.3,37.3l-21.9,21.9l-46.4-46.4v-68.2H215.5z"/>
+</svg>
