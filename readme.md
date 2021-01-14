@@ -1,28 +1,30 @@
-### 介绍
+## StopCoding
+![](https://img.shields.io/github/stars/jogeen/StopCoding)
+![](https://img.shields.io/badge/Downloads-892-green)
+![](https://img.shields.io/badge/Version-V1.2-orange)
+
+
+### Introduce
 - This is a work timer.It can set every working period to remind you that it's time to have a rest, drink some water and exercise your body.
       Only in this way can you really work healthily
     - In the tools menu bar, open stopcoding.
     - Set working hours and rest time, and save them.
     - When the set time comes, there will be a pop-up box to remind you to rest, so that you can not operate idea temporarily.
 
-
-- 如果你也经常沉迷于写代码,忘了起身休息喝水,那么试试这个插件吧
-    - 在菜单栏的Tools中,打开StopCoding插件进行设置
-    - 设置工作时间和休息时间,并且保存
-    - 当设置的时间一到,就会有弹框提醒你休息,让你暂时不能操作idea
     
-### 变更日志
+### ChangeLog(变更日志)
 - V1.2 add icon(Thanks for the icon provided by my good friend Hu Wei).
 - V1.1 update Guide to use.
 - V1.0 release.
 
-## 安装使用教程
-### 安装
+
+## Installation and use
+### Installation
 
 1. 在idea中直接搜索安装StopCoding插件(官方已经审核通过)
 2. 内网开发的小伙伴 可以下载之后进行本地安装 [下载地址](https://github.com/jogeen/StopCoding/releases/tag/20210114-V1.2)
 
-### 使用
+### How to use
 - Step1. 然后在菜单栏中tools->StopCoding
 
 ![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step1.png)
