@@ -21,7 +21,7 @@
 1. 在idea中直接搜索安装StopCoding插件(官方已经审核通过)
 
 ![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b7c4529d9ad74e52b25c9e3ff8bde987~tplv-k3u1fbpfcp-watermark.image)
-2. 内网开发的小伙伴 可以下载之后进行本地安装 [下载地址](https://github.com/jogeen/StopCoding/releases/tag/20210104-V1.0)
+2. 内网开发的小伙伴 可以下载之后进行本地安装 [下载地址](https://github.com/jogeen/StopCoding/releases/tag/20210114-V1.2)
 - 本地安装：
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b3a879d9342042f1889177c5417119d1~tplv-k3u1fbpfcp-watermark.image)
