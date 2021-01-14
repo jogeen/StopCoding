@@ -1,19 +1,33 @@
 <idea-plugin>
     <id>icu.jogeen.StopCoding.id</id>
     <name>StopCoding</name>
-    <version>1.0</version>
+    <version>1.2</version>
     <vendor email="jogeen@qq.com" url="https://github.com/jogeen/StopCoding">jogeen</vendor>
 
     <description><![CDATA[
-      This is a work timer.
-      It can set every working period to remind you that it's time to have a rest, drink some water and exercise your body.
-      Only in this way can you really work healthily<br>
-      <em>timer,to rest</em>
+     <p>This is a work timer.It can set every working period to remind you that it's time to have a rest, drink some water and exercise your body.
+      Only in this way can you really work healthily</p>
+     <ol>
+        <li>In the tools menu bar, open stopcoding.</li>
+        <li>Set working hours and rest time, and save them.</li>
+        <li>When the set time comes, there will be a pop-up box to remind you to rest, so that you can not operate idea temporarily.</li>
+    </ol>
+    <hr>
+    <p>如果你也经常沉迷于写代码,忘了起身休息喝水,那么试试这个插件吧</p>
+      <ol>
+        <li>在菜单栏的Tools中,打开StopCoding插件进行设置</li>
+        <li>设置工作时间和休息时间,并且保存</li>
+        <li>当设置的时间一到,就会有弹框提醒你休息,让你暂时不能操作idea</li>
+    </ol>
+    <p>项目地址:<a href="https://github.com/jogeen/StopCoding">https://github.com/jogeen/StopCoding</p>
     ]]></description>
 
     <change-notes><![CDATA[
-      The first version<br>
-      <em>timer</em>
+      <ul>
+            <li>V1.2 add icon(Thanks for the icon provided by my good friend Hu Wei).</li>
+            <li>V1.1 update Guide to use.</li>
+            <li>V1.0 release.</li>
+        </ul>
     ]]>
     </change-notes>
 
@@ -33,7 +47,7 @@
     <actions>
         <!-- Add your actions here -->
         <action id="StopCoding_setting_id" class="icu.jogeen.stopcoding.StopCodingSettingAction" text="StopCoding"
-                description="设置">
+                description="setting">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl S" second-keystroke="C"/>
         </action>
