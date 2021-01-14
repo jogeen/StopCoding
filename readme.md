@@ -18,22 +18,19 @@
 
 ## 安装使用教程
 ### 安装
+
 1. 在idea中直接搜索安装StopCoding插件(官方已经审核通过)
-
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b7c4529d9ad74e52b25c9e3ff8bde987~tplv-k3u1fbpfcp-watermark.image)
 2. 内网开发的小伙伴 可以下载之后进行本地安装 [下载地址](https://github.com/jogeen/StopCoding/releases/tag/20210114-V1.2)
-- 本地安装：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b3a879d9342042f1889177c5417119d1~tplv-k3u1fbpfcp-watermark.image)
 ### 使用
 - Step1. 然后在菜单栏中tools->StopCoding
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d444991c76a64791af61f506b1c4ae16~tplv-k3u1fbpfcp-watermark.image)
+![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step1.png)
 
 - Step2. 设置适合你的参数然后保存。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1e55c783876e40728480b34aa3f326cf~tplv-k3u1fbpfcp-watermark.image)
+![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step2.png)
 
 - Step3. 然后快乐的Coding吧，再不用担心自己会沉迷了。工作时间结束,她会弹出下框进行提醒,当然,这个框是关不掉的.只有你休息了足够的时间它才会自动关闭.
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/38cef698f7084ec69fb9d7a862119aec~tplv-k3u1fbpfcp-watermark.image)
+![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step3.png)
