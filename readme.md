@@ -11,28 +11,26 @@
     - Set working hours and rest time, and save them.
     - When the set time comes, there will be a pop-up box to remind you to rest, so that you can not operate idea temporarily.
 
-    
-### ChangeLog(变更日志)
+
+### ChangeLog
 - V1.2 add icon(Thanks for the icon provided by my good friend Hu Wei).
 - V1.1 update Guide to use.
 - V1.0 release.
 
-
-## Installation and use
 ### Installation
 
-1. 在idea中直接搜索安装StopCoding插件(官方已经审核通过)
-2. 内网开发的小伙伴 可以下载之后进行本地安装 [下载地址](https://github.com/jogeen/StopCoding/releases/tag/20210114-V1.2)
+1. Search and install stopcoding plug-in directly in idea (officially approved)
+2. Intranet development of small partners can download after the local installation [Download](https://github.com/jogeen/StopCoding/releases/tag/20210114-V1.2)
 
 ### How to use
-- Step1. 然后在菜单栏中tools->StopCoding
+- Step1. In the menu bar tools->StopCoding
 
 ![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step1.png)
 
-- Step2. 设置适合你的参数然后保存。
+- Step2. Set the parameters that suit you and save them。
 
 ![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step2.png)
 
-- Step3. 然后快乐的Coding吧，再不用担心自己会沉迷了。工作时间结束,她会弹出下框进行提醒,当然,这个框是关不掉的.只有你休息了足够的时间它才会自动关闭.
+- Step3. Then happy coding, no need to worry about their addiction. At the end of working hours, she will pop up the next box to remind you. Of course, this box can't be closed. It will close automatically only when you have enough rest time.
 
 ![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step3.png)
