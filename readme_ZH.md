@@ -1,6 +1,6 @@
 ## StopCoding(Idea防沉迷插件)
 ![](https://img.shields.io/github/stars/jogeen/StopCoding)
-![](https://img.shields.io/badge/downloads-1121-green)
+![](https://img.shields.io/jetbrains/plugin/d/15740)
 ![](https://img.shields.io/badge/Version-V1.2-orange)
 ![](https://img.shields.io/github/license/jogeen/StopCoding)
 
