@@ -1,9 +1,10 @@
 ## StopCoding
 ![](https://img.shields.io/github/stars/jogeen/StopCoding)
-![](https://img.shields.io/badge/Downloads-892-green)
+![](https://img.shields.io/jetbrains/plugin/d/15740)
 ![](https://img.shields.io/badge/Version-V1.2-orange)
+![](https://img.shields.io/github/license/jogeen/StopCoding)
 
-
+[中文说明](https://github.com/jogeen/StopCoding/blob/master/readme_ZH.md)
 ### Introduce
 - This is a work timer.It can set every working period to remind you that it's time to have a rest, drink some water and exercise your body.
       Only in this way can you really work healthily
