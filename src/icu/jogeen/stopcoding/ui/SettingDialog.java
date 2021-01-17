@@ -4,6 +4,7 @@ import com.intellij.notification.Notification;
 import com.intellij.notification.NotificationDisplayType;
 import com.intellij.notification.NotificationGroup;
 import com.intellij.notification.Notifications;
+import com.intellij.openapi.project.ProjectManager;
 import com.intellij.openapi.ui.MessageType;
 import icu.jogeen.stopcoding.data.DataCenter;
 import icu.jogeen.stopcoding.data.SettingData;
@@ -93,10 +94,11 @@ public class SettingDialog extends JDialog {
             //关闭定时
             notifyStr = TimerService.closeTimer();
         }
-        NotificationGroup notificationGroup = new NotificationGroup("settingid", NotificationDisplayType.BALLOON, true);
+        NotificationGroup notificationGroup = new NotificationGroup("StopCoding", NotificationDisplayType.BALLOON, true);
         Notification notification = notificationGroup.createNotification(notifyStr, MessageType.INFO);
         Notifications.Bus.notify(notification);
-        System.out.println(notifyStr);
+
+        JOptionPane.showMessageDialog(null, notifyStr, "tips",JOptionPane.INFORMATION_MESSAGE);
         dispose();
     }
 
