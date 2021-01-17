@@ -6,6 +6,8 @@
 
 ![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step.gif)
 [中文说明](https://github.com/jogeen/StopCoding/blob/master/readme_ZH.md)
+
+![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step.gif)
 ### Introduce
 - This is a work timer.It can set every working period to remind you that it's time to have a rest, drink some water and exercise your body.
       Only in this way can you really work healthily

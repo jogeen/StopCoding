@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/Version-V1.2-orange)
 ![](https://img.shields.io/github/license/jogeen/StopCoding)
 
-
+![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step.gif)
 ### 介绍
 - 如果你也经常沉迷于写代码,忘了起身休息喝水,那么试试这个插件吧
     - 在菜单栏的Tools中,打开StopCoding插件进行设置
