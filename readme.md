@@ -4,7 +4,6 @@
 ![](https://img.shields.io/badge/Version-V1.2-orange)
 ![](https://img.shields.io/github/license/jogeen/StopCoding)
 
-![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step.gif)
 [中文说明](https://github.com/jogeen/StopCoding/blob/master/readme_ZH.md)
 
 ![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step.gif)
