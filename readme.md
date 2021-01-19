@@ -23,7 +23,7 @@
 ### Installation
 
 1. Search and install stopcoding plug-in directly in idea (officially approved)
-2. Intranet development of small partners can download after the local installation [Download](https://github.com/jogeen/StopCoding/releases/tag/20210114-V1.2)
+2. Intranet development of small partners can download after the local installation [Download](https://plugins.jetbrains.com/files/15740/107967/StopCoding.jar?updateId=107967&pluginId=15740&family=INTELLIJ)
 
 ### How to use
 - Step1. In the menu bar tools->StopCoding
