@@ -1,9 +1,10 @@
 ## StopCoding(Idea防沉迷插件)
 ![](https://img.shields.io/github/stars/jogeen/StopCoding)
-![](https://img.shields.io/badge/Downloads-892-green)
+![](https://img.shields.io/jetbrains/plugin/d/15740)
 ![](https://img.shields.io/badge/Version-V1.2-orange)
+![](https://img.shields.io/github/license/jogeen/StopCoding)
 
-
+![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step.gif)
 ### 介绍
 - 如果你也经常沉迷于写代码,忘了起身休息喝水,那么试试这个插件吧
     - 在菜单栏的Tools中,打开StopCoding插件进行设置
@@ -19,7 +20,7 @@
 ### 安装
 
 1. 在idea中直接搜索安装StopCoding插件(官方已经审核通过)
-2. 内网开发的小伙伴 可以下载之后进行本地安装 [下载地址](https://github.com/jogeen/StopCoding/releases/tag/20210114-V1.2)
+2. 内网开发的小伙伴 可以下载之后进行本地安装 [下载地址](https://plugins.jetbrains.com/files/15740/107967/StopCoding.jar?updateId=107967&pluginId=15740&family=INTELLIJ)
 
 ### 使用
 - Step1. 然后在菜单栏中tools->StopCoding
@@ -33,3 +34,5 @@
 - Step3. 然后快乐的Coding吧，再不用担心自己会沉迷了。工作时间结束,她会弹出下框进行提醒,当然,这个框是关不掉的.只有你休息了足够的时间它才会自动关闭.
 
 ![](https://raw.githubusercontent.com/jogeen/StopCoding/master/image/step3.png)
+### 我的其它插件
+[MarkBook](https://github.com/jogeen/MarkBook)

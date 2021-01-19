@@ -9,6 +9,7 @@ import icu.jogeen.stopcoding.data.DataCenter;
 import icu.jogeen.stopcoding.service.TimerService;
 import icu.jogeen.stopcoding.ui.TipsDialog;
 
+import javax.swing.*;
 import java.util.TimerTask;
 
 public class RestTask extends TimerTask {
@@ -34,9 +35,11 @@ public class RestTask extends TimerTask {
             tipsDialog.dispose(); //关闭提示窗口
             String notifyStr = TimerService.openTimer();// 开启工作计时器
             //发一个通知
-            NotificationGroup notificationGroup = new NotificationGroup("tipsid", NotificationDisplayType.BALLOON, true);
+            NotificationGroup notificationGroup = new NotificationGroup("StopCoding", NotificationDisplayType.BALLOON, true);
             Notification notification = notificationGroup.createNotification(notifyStr, MessageType.INFO);
             Notifications.Bus.notify(notification);
+
+            JOptionPane.showMessageDialog(null, notifyStr, "tips",JOptionPane.INFORMATION_MESSAGE);
         }
     }
 }

@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>icu.jogeen.StopCoding.id</id>
     <name>StopCoding</name>
-    <version>1.2</version>
+    <version>1.2.1</version>
     <vendor email="jogeen@qq.com" url="https://github.com/jogeen/StopCoding">jogeen</vendor>
 
     <description><![CDATA[
