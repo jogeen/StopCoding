@@ -20,7 +20,7 @@
 ### 安装
 
 1. 在idea中直接搜索安装StopCoding插件(官方已经审核通过)
-2. 内网开发的小伙伴 可以下载之后进行本地安装 [下载地址](https://plugins.jetbrains.com/files/15740/107967/StopCoding.jar?updateId=107967&pluginId=15740&family=INTELLIJ)
+2. 内网开发的小伙伴 可以下载之后进行本地安装 [下载地址](https://plugins.jetbrains.com/files/15740/108158/StopCoding.jar?updateId=108158&pluginId=15740&family=INTELLIJ)
 
 ### 使用
 - Step1. 然后在菜单栏中tools->StopCoding
