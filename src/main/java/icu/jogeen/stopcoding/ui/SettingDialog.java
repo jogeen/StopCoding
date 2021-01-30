@@ -1,25 +1,30 @@
 package icu.jogeen.stopcoding.ui;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import javax.swing.JButton;
+import javax.swing.JComponent;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+import javax.swing.KeyStroke;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import com.intellij.ide.util.PropertiesComponent;
 import com.intellij.notification.Notification;
 import com.intellij.notification.NotificationDisplayType;
 import com.intellij.notification.NotificationGroup;
 import com.intellij.notification.Notifications;
-import com.intellij.openapi.project.ProjectManager;
 import com.intellij.openapi.ui.MessageType;
 import icu.jogeen.stopcoding.data.DataCenter;
 import icu.jogeen.stopcoding.data.SettingData;
 import icu.jogeen.stopcoding.service.TimerService;
-import icu.jogeen.stopcoding.task.WorkTask;
-
-import javax.swing.*;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import java.awt.event.*;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
-import java.util.Timer;
 
 public class SettingDialog extends JDialog {
     private JPanel contentPane;
@@ -71,13 +76,15 @@ public class SettingDialog extends JDialog {
         });
 
         //初始化渲染设置界面
+        SettingData settings = new SettingData();
+        PropertiesComponent propertiesComponent = PropertiesComponent.getInstance();
+        propertiesComponent.loadFields(settings);
+        DataCenter.settingData = settings;
         openRbtn.setSelected(DataCenter.settingData.isOpen());
         workTimeTF.setText(DataCenter.settingData.getWorkTime() + "");
         restTimeTF.setText(DataCenter.settingData.getRestTime() + "");
         descJL.setText(DataCenter.getSettingDesc());
         openRbtn.setText(openRbtn.isSelected() ? "Running" : "Stopped");
-
-
     }
 
     /**
@@ -85,7 +92,10 @@ public class SettingDialog extends JDialog {
      */
     private void onOK() {
         //保持设置
-        TimerService.saveSetting(openRbtn.isSelected(), restTimeTF.getText(), workTimeTF.getText());
+        SettingData settings = TimerService.saveSetting(openRbtn.isSelected(), restTimeTF.getText(), workTimeTF.getText());
+        PropertiesComponent propertiesComponent = PropertiesComponent.getInstance();
+        propertiesComponent.saveFields(settings);
+
         String notifyStr;
         if (openRbtn.isSelected()) {
             //开启定时

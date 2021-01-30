@@ -12,20 +12,11 @@ import java.util.Timer;
 
 public class TimerService {
 
-    public static void saveSetting(boolean selected,String restTimeTFText,String worTimeTFText){
-        //如果为空或者非数字，侧设置成默认时间
-        if (restTimeTFText == null || restTimeTFText.isEmpty() || !DataCenter.isInteger(restTimeTFText)) {
-            DataCenter.settingData.setRestTime(SettingData.DEFAULT_REST_TIME);
-        }else{
-            DataCenter.settingData.setRestTime(Integer.parseInt(restTimeTFText));
-        }
-        if (worTimeTFText == null || worTimeTFText.isEmpty() || !DataCenter.isInteger(worTimeTFText)) {
-            DataCenter.settingData.setWorkTime(SettingData.DEFAULT_WORK_TIME);
-        }else{
-            DataCenter.settingData.setWorkTime(Integer.parseInt(worTimeTFText));
-        }
-        DataCenter.settingData.setOpen(selected);
-
+    public static SettingData saveSetting(boolean selected,String restTimeTFText,String worTimeTFText){
+        DataCenter.settingData = SettingData.of(selected,
+            DataCenter.isInteger(restTimeTFText) ? Integer.parseInt(restTimeTFText) : SettingData.DEFAULT_REST_TIME,
+            DataCenter.isInteger(worTimeTFText) ? Integer.parseInt(worTimeTFText) : SettingData.DEFAULT_WORK_TIME);
+        return DataCenter.settingData;
     }
 
 

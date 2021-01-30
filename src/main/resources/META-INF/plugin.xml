@@ -35,6 +35,7 @@
 
     <depends>com.intellij.modules.lang</depends>
     <extensions defaultExtensionNs="com.intellij">
+        <preloadingActivity implementation="icu.jogeen.stopcoding.StopCodingInitializer"/>
     </extensions>
 
     <actions>
@@ -43,6 +44,7 @@
             <add-to-group group-id="ToolsMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl S" second-keystroke="C"/>
         </action>
+
     </actions>
 
 </idea-plugin>
